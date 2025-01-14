@@ -20,6 +20,9 @@ int main()
 	std::cout << "----- 리스트 데이터 삭제 후 출력 ----\n";
 	list.Print();
 
+	std::cout << "----- 리스트 데이터 뒤집은 후 출력 ----\n";
+	list.ReversePrint();
+
 	std::cin.get();
 
 	return 0;

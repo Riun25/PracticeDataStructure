@@ -22,8 +22,15 @@ public:
 	// 저장된 요소 출력 함수
 	void Print();
 
+	// 뒤집은 것을 출력하는 함수
+	void ReversePrint();
+
 	// 저장된 요소의 수 반환 함수(Getter)
 	__forceinline int Count() const;
+
+private:
+	// 포인터를 뒤집는 함수
+	Node* Reverse();
 
 private:
 	// 헤드 노드

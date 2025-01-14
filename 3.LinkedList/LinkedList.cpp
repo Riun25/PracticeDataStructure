@@ -154,6 +154,28 @@ void LinkedList::Print()
 	}
 }
 
+Node* LinkedList::Reverse()
+{
+	Node* first = nullptr;
+	Node* current = mpHead;
+	Node* last = nullptr;
+
+	while (current != nullptr)
+	{
+		last = current->mpNext; // 내 다음 노드를 복사해둔다.
+		current->mpNext = first; // 내 다음 노드를 이전 노드로 바꾼다.
+		first = current; // 포인터를 다 옮겨줬으니 노드를 바꾼다.
+		current = last;
+	}
+	return first;
+}
+
+void  LinkedList::ReversePrint()
+{
+	mpHead = Reverse();
+	Print();
+}
+
 int LinkedList::Count() const
 {
 	return mCount;
