@@ -1,5 +1,5 @@
 #pragma once
-
+#include <stack>
 #include "Node.h"
 
 
@@ -25,10 +25,17 @@ public:
 	// 뒤집은 것을 출력하는 함수
 	void ReversePrint();
 
+	// 스택에 넣는 경우
+	void PushToStack(std::stack<int>& _stack);
+
+	// 재귀 함수를 이용한 경우
+	void RecursivePrint();
+
 	// 저장된 요소의 수 반환 함수(Getter)
-	__forceinline int Count() const;
+	int Count() const;
 
 private:
+	void RecursivePrint(Node* _node);
 	// 포인터를 뒤집는 함수
 	Node* Reverse();
 

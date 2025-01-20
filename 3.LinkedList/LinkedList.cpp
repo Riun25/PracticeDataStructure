@@ -176,6 +176,30 @@ void  LinkedList::ReversePrint()
 	Print();
 }
 
+void LinkedList::PushToStack(std::stack<int>& _stack)
+{
+	Node* current = mpHead;
+	while(current)
+	{
+		_stack.push(current->mData);
+		current = current->mpNext;
+	}
+}
+
+void LinkedList::RecursivePrint()
+{
+	RecursivePrint(mpHead);
+}
+
+void LinkedList::RecursivePrint(Node* _node)
+{
+	if (_node->mpNext)
+	{
+		RecursivePrint(_node->mpNext);
+	}
+	std::cout << *_node << "\n";
+}
+
 int LinkedList::Count() const
 {
 	return mCount;

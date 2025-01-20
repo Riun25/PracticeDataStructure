@@ -20,23 +20,23 @@ int main()
 
 	std::cout << "----- 리스트 데이터 삭제 후 출력 ----\n";
 	list.Print();
-
+	
 	std::cout << "----- 리스트 데이터 뒤집은 후 출력 ----\n";
-	list.ReversePrint();
-
+	list.RecursivePrint();
+	
 	std::cout << "----- 리스트 데이터 뒤집은 후 출력 ----\n";
 	std::stack<int> myStack;
 
-	for (int i = 0; list.Count(); i++)
-	{
-		myStack.push(i);
-	}
+	list.PushToStack(myStack);
 
 	for (int i = 0; myStack.size(); i++)
 	{
 		std::cout << myStack.top() << "\n";
 		myStack.pop();
 	}
+
+	std::cout << "----- 리스트 데이터 뒤집은 후 출력 ----\n";
+	list.ReversePrint();
 
 	std::cin.get();
 
