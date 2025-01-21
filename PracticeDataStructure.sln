@@ -35,6 +35,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.Tree", "15.Tree\15.Tree.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.BinaryTree", "16.BinaryTree\16.BinaryTree.vcxproj", "{2066C31C-A9D1-47F0-81FD-865E16B52B64}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STL", "STL", "{0A254A01-AD66-46AD-894E-ADF5ED748391}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. STL_LinkedList", "1. STL_LinkedList\1. STL_LinkedList.vcxproj", "{D8C0769E-99F5-44E2-93D4-361790B431CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_2.UnsortedTemplateLinkedList", "4_2.UnsortedTemplateLinkedList\4_2.UnsortedTemplateLinkedList.vcxproj", "{878842CC-A479-4D29-A2AB-75CE12AB593C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,8 +177,27 @@ Global
 		{2066C31C-A9D1-47F0-81FD-865E16B52B64}.Release|x64.Build.0 = Release|x64
 		{2066C31C-A9D1-47F0-81FD-865E16B52B64}.Release|x86.ActiveCfg = Release|Win32
 		{2066C31C-A9D1-47F0-81FD-865E16B52B64}.Release|x86.Build.0 = Release|Win32
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Debug|x64.ActiveCfg = Debug|x64
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Debug|x64.Build.0 = Debug|x64
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Debug|x86.Build.0 = Debug|Win32
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Release|x64.ActiveCfg = Release|x64
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Release|x64.Build.0 = Release|x64
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Release|x86.ActiveCfg = Release|Win32
+		{D8C0769E-99F5-44E2-93D4-361790B431CA}.Release|x86.Build.0 = Release|Win32
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Debug|x64.ActiveCfg = Debug|x64
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Debug|x64.Build.0 = Debug|x64
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Debug|x86.ActiveCfg = Debug|Win32
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Debug|x86.Build.0 = Debug|Win32
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Release|x64.ActiveCfg = Release|x64
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Release|x64.Build.0 = Release|x64
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Release|x86.ActiveCfg = Release|Win32
+		{878842CC-A479-4D29-A2AB-75CE12AB593C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8C0769E-99F5-44E2-93D4-361790B431CA} = {0A254A01-AD66-46AD-894E-ADF5ED748391}
 	EndGlobalSection
 EndGlobal
