@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d8c0769e-99f5-44e2-93d4-361790b431ca}</ProjectGuid>
-    <RootNamespace>My1STLLinkedList</RootNamespace>
+    <ProjectGuid>{fab0da19-86fd-4995-be88-4426024a7683}</ProjectGuid>
+    <RootNamespace>My31ListProblem</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
