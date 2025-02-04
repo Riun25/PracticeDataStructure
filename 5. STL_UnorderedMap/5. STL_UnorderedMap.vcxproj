@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4a2684f1-445e-486d-bf73-2801a84f7985}</ProjectGuid>
-    <RootNamespace>My4Deque</RootNamespace>
+    <ProjectGuid>{62aa7ed9-7355-4a28-ae22-e60044eecf9a}</ProjectGuid>
+    <RootNamespace>My5STLUnorderedMap</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>4. STL_Deque</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
